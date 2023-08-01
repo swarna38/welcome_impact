@@ -1,0 +1,221 @@
+@media (min-width: 320px) {
+    /* ----navbar start -----  */
+    .navbar-brand{
+        color: white;
+        font-size: 30px;
+        font-family: var(--noto);
+    }
+    .navbar{
+        background: var(--color-primary);
+    }
+    .nav-item a{
+        color: var(--color-gray);
+       font-family: var(--noto);
+       transition: .4s ease-in-out; 
+    }
+    .nav-item a:hover{
+       color: white !important;
+    }
+    /* navbr end -----  */
+    /* ----hero area start ----  */
+    .hero-description{
+        text-align: center;
+    }
+    .hero-description button{
+        margin-bottom: 30px;
+    }
+    #hero{
+        background-color: var(--color-primary);
+        height: 1580px;
+    }
+    .hero-seceound-child{
+        margin-bottom: 20px;
+    }
+    /* ----hero section end==== */
+    /* ----about section start  */
+    #about{
+        margin-top: 100px;
+    }
+    /* ===about section end==== */
+    /* ===counter section start==== */
+    .counter-child h1{
+        color: var(--color-primary);
+    }
+    /* ===counter section end=== */
+    /* ====testimoniyal section start===== */
+    #testimonial .swipe-content .swiper-secoundary h5{
+        font-size: 15px;
+    }
+    /* ====testimonial end===== */
+    /* ====portfolio start==== */
+    .portfolio-child{
+        margin-bottom: 30px;
+    }
+    .portfolio-button button{
+        margin-bottom: 10px;
+    }
+    /* ====portfolio end==== */
+    /* ===team section start===== */
+    .team-child{
+        margin-bottom: 30px;
+    }
+    /* ===team section end==== */
+    /* ====pricing section start==== */
+    .pricing-child{
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 375px) {
+    
+ }
+@media (min-width: 384px) {
+ }
+@media (min-width: 360px) {
+ 
+ }
+@media (min-width: 390px) {
+ 
+ }
+@media (min-width: 414px) {
+    .counter-child p{
+        margin-top: 3px !important;
+    }
+ }
+@media (min-width: 428px) {
+
+ }
+ @media (min-width: 460px) {
+    #hero{
+        height: 1600px;
+    }
+ }
+ @media (min-width: 350px) {
+    #testimonial .swipe-content .swiper-secoundary h5{
+        font-size: 18px;
+    }
+ }
+ @media (min-width: 480px) {
+    /* ===counter section start=== */
+    .counter-child p{
+        margin-top: 5px !important;
+    }
+ }
+ @media (min-width: 512px) {
+    /* ====hero section start==== */
+    #hero{
+        height: 1630px;
+    }
+    /* ====hero end start==== */
+    /* ====testimonial section start=== */
+    #testimonial .swipe-content .swiper-secoundary h5{
+        font-size: 20px;
+    }
+
+ }
+ @media (min-width: 550px) {
+ }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .navbar-brand{
+        color: white;
+        font-size: 30px;
+        font-family: var(--noto);
+    }
+    .navbar{
+        background: var(--color-primary);
+    }
+    .nav-item a{
+        color: var(--color-gray);
+       font-family: var(--noto);
+       transition: .4s ease-in-out; 
+    }
+    .nav-item a:hover{
+       color: white !important;
+    }
+    /* ----navbar end-----  */
+    /* ---hero area start -----  */
+    #hero{
+        background-color: var(--color-primary);
+        height: 1660px;
+    }
+    /* ----hero end  */
+    /* ----counter section start====*/
+    .counter-child h1{
+        font-size: 40px;
+        color: var(--color-primary);
+    }
+    .counter-child p{
+        margin-top: 10px !important;
+    }
+ }
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #hero{
+        height: 800px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+/* ----navbar start----  */
+.navbar-brand{
+    color: white;
+    font-size: 30px;
+    font-family: var(--noto);
+}
+.navbar{
+    background: var(--color-primary);
+}
+.nav-item a::after{
+    content: "";
+    display: block;
+    border-bottom: 2px solid var(---color-secoundary);
+    opacity: 0;
+}
+.nav-item a:hover::after{
+    opacity: 1;
+}
+.nav-item a{
+    color: var(--color-gray);
+   font-family: var(--noto);
+   transition: .4s ease-in-out; 
+}
+.nav-item a:hover{
+   color: white !important;
+}
+ 
+/* ----navbar end----  */
+/* ----hero area start-----  */
+#hero{
+    background-color: var(--color-primary);
+    height: 530px;
+}
+/* ----hero area end ----  */
+/* ----about section start ===== */
+#about{
+    margin-top: 200px;
+}
+/* ===about end=== */
+/* ====fuq start==== */
+.fuq-detailes p{
+    width: 305px; line-height: 30px;
+}
+
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* ---hero start ---  */
+    #hero{
+        background-color: var(--color-primary);
+        height: 580px;
+    }
+}
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+    
+   
+ }
